@@ -7,8 +7,8 @@ prediction = pd.read_csv("prediction_list.csv")
 past_potential = prediction["potential"]
 past_id = prediction["id"]
 
-reddit = praw.Reddit(client_id='xDcIT_gIctwdIw',
-                     client_secret='-TUJPRH9eQhhO64Q29nJV_FTc74',
+reddit = praw.Reddit(client_id='********', #hidden on github
+                     client_secret='*********', #hidden on github
                      user_agent='pythonee551')
 
 subreddit = reddit.subreddit('politics')
