@@ -9,8 +9,8 @@ def get_date(created):
 
 stop_words = ["to", "s", "of", "a", "for", "on", "is", "in", "and", "the", "t", "he", "his", "i", "be" ,"if", "that", "r"]
 
-reddit = praw.Reddit(client_id='xDcIT_gIctwdIw',
-                     client_secret='-TUJPRH9eQhhO64Q29nJV_FTc74',
+reddit = praw.Reddit(client_id='********', #hidden on github
+                     client_secret='*********', #hidden on github
                      user_agent='pythonee551')
 
 subreddit = reddit.subreddit('politics')
